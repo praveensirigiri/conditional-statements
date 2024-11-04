@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let num1=+prompt("Enter a number");
+        let num2=+prompt("Enter a number");
+        let oper=prompt("select the operator");
+    
+        switch(oper){
+            case "+":
+                console.log("Addition:"+(num1+num2));
+                break;
+            case "-":
+                console.log("Subraction:"+(num1-num2));
+                break;
+            case "*":
+                console.log("Multiplication:"+(num1*num2));
+                break;
+            case "/":
+                console.log("Division:"+(num1/num2));
+                break;
+            case "%":
+                console.log("Modulus:"+(num1%num2));
+                break;    
+            default:
+                console.log("Invalid operator");
+                break;
+        }
+    </script>
+</body>
+</html>
